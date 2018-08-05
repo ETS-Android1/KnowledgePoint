@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theSplashScreenLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+	<RelativeLayout
+	    android:orientation="horizontal"
+ 	  	android:layout_width="wrap_content"
+ 	   	android:layout_height="wrap_content"
+ >
+ 	   	  
+    	<ImageView
+       		android:id="@+id/bookcoverimage"
+        	android:layout_width="900dip" 
+        	android:layout_height="1450dip" />
+	    
+	    <Button
+            android:id="@+id/suiteContentsButton"
+            android:textSize="20sp"
+            android:layout_marginTop="450dip"
+            android:layout_marginLeft="30dip"
+            android:layout_width="147dp"
+            android:layout_height="80dp"
+            android:text="Suite Contents"
+            />
+        
+       <Button
+            android:id="@+id/documentContentsButton"
+            android:textSize="20sp"
+            android:layout_marginTop="450dip"
+            android:layout_marginLeft="6dip" 
+            android:layout_width="147dp"
+            android:layout_height="80dp"
+            android:text="Document Contents"
+            android:layout_toRightOf="@+id/suiteContentsButton"
+
+            />      
+        
+	</RelativeLayout>
+
+</LinearLayout>	

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theSplashScreenLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+	<RelativeLayout
+	    android:orientation="vertical"
+ 	  	android:layout_width="wrap_content"
+ 	   	android:layout_height="wrap_content"
+ >
+ 	   	  
+    	<ImageView
+       		android:id="@+id/bookcoverimage"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="600dip" />
+	    
+	    <Button
+            android:id="@+id/documentContentsButton"
+            android:layout_marginTop="395dip"
+            android:layout_marginLeft="50dip"
+            android:layout_width="130dp"
+            android:layout_height="45dp"  
+            android:textSize="7pt"
+            android:text="Text"
+            />
+        
+       <Button
+            android:id="@+id/animationContentsButton"
+            android:layout_marginTop="395dip"
+            android:layout_marginLeft="5dip" 
+            android:layout_width="130dp" 
+            android:layout_height="45dp"
+            android:textSize="7pt"
+            android:text="Video"
+            android:layout_toRightOf="@+id/documentContentsButton"
+            />
+       
+       <Button
+            android:id="@+id/voiceContentsButton"
+            android:layout_marginTop="0dip"
+            android:layout_marginLeft="50dip" 
+            android:layout_width="130dp" 
+            android:layout_height="45dp"
+            android:textSize="7pt"
+            android:text="Voice"
+            android:layout_below="@+id/documentContentsButton"
+            />  
+            
+		<Button
+            android:id="@+id/suiteContentsButton"
+            android:layout_marginTop="0dip"
+            android:layout_marginLeft="5dip" 
+            android:layout_width="130dp" 
+            android:layout_height="45dp"
+            android:textSize="7pt"
+            android:text="Suite"
+            android:layout_below="@+id/animationContentsButton"
+            android:layout_toRightOf="@+id/voiceContentsButton"
+            />  
+        
+	</RelativeLayout>
+
+</LinearLayout>	
+<!-- From: file:/C:/Users/tony.hillman/Documents/AndroidStudioBackups/MaterialWithTabs/V01/UAKP-all-22-1-21-g6/app/src/main/res/layout/book_cover_activity_for_user_guide_for_one_zero___four_point_zero_etc.xml -->

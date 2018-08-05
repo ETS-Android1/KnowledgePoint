@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/blankcover4">"
+    
+    <TextView
+        android:id="@+id/my_textview"
+        android:layout_width="540dip"
+        android:layout_height="60dip"
+        android:background="@drawable/text_continuity_button"
+        android:paddingTop="11dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="15dip"
+        android:textSize="24sp"
+         />
+
+    <TextView
+        android:id="@+id/my_top_underscore"
+        android:layout_width="540dip"
+        android:layout_height="4dip"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="15dip"
+        android:background="@drawable/text_continuity_button" />
+    
+    <Button
+        android:id="@+id/btn_speak"
+        android:layout_marginTop="74dip"
+        android:layout_width="504dip"
+        android:layout_height="70dip"
+        android:layout_marginLeft="33dip"
+        android:layout_gravity="center" 
+        android:textSize="20sp"       
+         />
+    
+    
+   <TextView
+        android:id="@+id/textView0"
+        android:textSize="20sp"
+        android:layout_marginLeft="35dip"
+        android:layout_marginTop="154dip"
+        android:layout_width="500dip"
+        android:layout_height="70dip"
+        android:padding="8dip"
+        android:background="#000000"
+        android:layout_gravity="center" />
+   
+     <TextView
+        android:id="@+id/textView1"
+        android:textSize="20sp"
+        android:layout_marginLeft="37dip"
+        android:layout_marginTop="156dip"
+        android:layout_width="496dip"
+        android:layout_height="66dip"
+        android:padding="8dip"
+        android:background="#FFFFFF"
+        android:layout_gravity="center" />
+     
+     
+     
+     
+     
+     
+     <TextView
+            android:id="@+id/imgFrame0"
+            android:layout_width="160dip"
+            android:layout_height="160dip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="234dp"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:background="#000000"
+             >
+        </TextView>
+     
+     <TextView
+            android:id="@+id/imgFrame1"
+            android:layout_width="156dip"
+            android:layout_height="156dip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="207dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="236dp"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:background="#000000"
+             >
+        </TextView>
+     
+     <ImageView
+            android:id="@+id/imgFrame"
+            android:layout_width="152dip"
+            android:layout_height="152dip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="209dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="238dp"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+             >
+        </ImageView>
+    
+     <Spinner
+        android:id="@+id/theSpinner"
+        android:textSize="16sp"
+        android:textColor="#335495"
+        android:layout_marginLeft="70dip"
+        android:layout_width="420dip"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footbar"
+        android:layout_marginBottom="20dp"
+        android:drawSelectorOnTop="true"
+        android:layout_marginTop="204dp"
+    	android:prompt="@string/prompt"
+        />
+    
+   <ImageView
+        android:id="@+id/footbar"
+        android:layout_width="560dip"
+        android:layout_height="48dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dip"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/text_continuity_button"
+        android:onClick="returnToMenu"
+        android:src="@drawable/arrow_light_blue_xxsmall_right" />
+   
+</RelativeLayout>

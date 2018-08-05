@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="WHETHER_YET_OPENED">0</integer>
+    
+    <integer name="search_button_text_size_for_zero___four_point_three">12</integer>
+    <integer name="search_button_left_padding_for_zero___four_point_three">4</integer>
+    <integer name="search_button_top_padding_for_zero___four_point_three">4</integer>
+    <integer name="search_button_right_padding_for_zero___four_point_three">4</integer>
+    <integer name="search_button_bottom_padding_for_zero___four_point_three">8</integer> 
+    <integer name="search_button_min_height_for_zero___four_point_three">25</integer>
+    <integer name="search_button_min_width_for_zero___four_point_three">40</integer>
+    <integer name="search_box_min_ems_for_zero___four_point_three">6</integer>
+    <integer name="search_button_left_margin_for_zero___four_point_three">4</integer>
+    <integer name="search_button_top_margin_for_zero___four_point_three">4</integer>
+    <integer name="search_button_right_margin_for_zero___four_point_three">4</integer>
+    <integer name="search_button_bottom_margin_for_zero___four_point_three">12</integer>
+    
+    <integer name="search_button_text_size_for_one_zero___four_point_zero_etc">12</integer>
+    <integer name="search_button_left_padding_for_one_zero___four_point_zero_etc">4</integer>
+    <integer name="search_button_top_padding_for_one_zero___four_point_zero_etc">4</integer>
+    <integer name="search_button_right_padding_for_one_zero___four_point_zero_etc">4</integer>
+    <integer name="search_button_bottom_padding_for_one_zero___four_point_zero_etc">8</integer> 
+    <integer name="search_button_min_height_for_one_zero___four_point_zero_etc">30</integer>
+    <integer name="search_button_min_width_for_one_zero___four_point_zero_etc">40</integer>
+    <integer name="search_box_min_ems_for_one_zero___four_point_zero_etc">8</integer>
+    <integer name="search_button_left_margin_for_one_zero___four_point_zero_etc">4</integer>
+    <integer name="search_button_top_margin_for_one_zero___four_point_zero_etc">4</integer>
+    <integer name="search_button_right_margin_for_one_zero___four_point_zero_etc">4</integer>
+    <integer name="search_button_bottom_margin_for_one_zero___four_point_zero_etc">12</integer>
+    
+    <integer name="search_button_text_size_for_two_zero___four_point_three_etc">16</integer>
+    <integer name="search_button_left_padding_for_two_zero___four_point_three_etc">4</integer>
+    <integer name="search_button_top_padding_for_two_zero___four_point_three_etc">4</integer>
+    <integer name="search_button_right_padding_for_two_zero___four_point_three_etc">4</integer>
+    <integer name="search_button_bottom_padding_for_two_zero___four_point_three_etc">8</integer>
+    <integer name="search_button_min_height_for_two_zero___four_point_three_etc">30</integer>
+    <integer name="search_button_min_width_for_two_zero___four_point_three_etc">80</integer>
+    <integer name="search_box_min_ems_for_two_zero___four_point_three_etc">8</integer>
+    <integer name="search_button_left_margin_for_two_zero___four_point_three_etc">4</integer>
+    <integer name="search_button_top_margin_for_two_zero___four_point_three_etc">4</integer>
+    <integer name="search_button_right_margin_for_two_zero___four_point_three_etc">4</integer>
+    <integer name="search_button_bottom_margin_for_two_zero___four_point_three_etc">12</integer>
+    
+    <integer name="search_button_text_size_for_three_zero___four_point_seven">15</integer>
+    <integer name="search_button_left_padding_for_three_zero___four_point_seven">4</integer>
+    <integer name="search_button_top_padding_for_three_zero___four_point_seven">4</integer>
+    <integer name="search_button_right_padding_for_three_zero___four_point_seven">4</integer>
+    <integer name="search_button_bottom_padding_for_three_zero___four_point_seven">8</integer>
+    <integer name="search_button_min_height_for_three_zero___four_point_seven">60</integer>
+    <integer name="search_button_min_width_for_three_zero___four_point_seven">80</integer>
+    <integer name="search_box_min_ems_for_three_zero___four_point_seven">10</integer>
+    <integer name="search_button_left_margin_for_three_zero___four_point_seven">4</integer>
+    <integer name="search_button_top_margin_for_three_zero___four_point_seven">4</integer>
+    <integer name="search_button_right_margin_for_three_zero___four_point_seven">4</integer>
+    <integer name="search_button_bottom_margin_for_three_zero___four_point_seven">12</integer>
+    
+    <integer name="search_button_text_size_for_four_zero___seven">16</integer>
+    <integer name="search_button_left_padding_for_four_zero___seven">4</integer>
+    <integer name="search_button_top_padding_for_four_zero___seven">4</integer>
+    <integer name="search_button_right_padding_for_four_zero___seven">4</integer>
+    <integer name="search_button_bottom_padding_for_four_zero___seven">8</integer>
+    <integer name="search_button_min_height_for_four_zero___seven">30</integer>
+    <integer name="search_button_min_width_for_four_zero___seven">80</integer>
+    <integer name="search_box_min_ems_for_four_zero___seven">10</integer>
+    <integer name="search_button_left_margin_for_four_zero___seven">4</integer>
+    <integer name="search_button_top_margin_for_four_zero___seven">4</integer>
+    <integer name="search_button_right_margin_for_four_zero___seven">4</integer>
+    <integer name="search_button_bottom_margin_for_four_zero___seven">12</integer>
+    
+    <integer name="search_button_text_size_for_five_zero___ten">16</integer>
+    <integer name="search_button_left_padding_for_five_zero___ten">4</integer>
+    <integer name="search_button_top_padding_for_five_zero___ten">4</integer>
+    <integer name="search_button_right_padding_for_five_zero___ten">4</integer>
+    <integer name="search_button_bottom_padding_for_five_zero___ten">8</integer>
+    <integer name="search_button_min_height_for_five_zero___ten">30</integer>
+    <integer name="search_button_min_width_for_five_zero___ten">80</integer>
+    <integer name="search_box_min_ems_for_five_zero___ten">10</integer>
+    <integer name="search_button_left_margin_for_five_zero___ten">4</integer>
+    <integer name="search_button_top_margin_for_five_zero___ten">4</integer>
+    <integer name="search_button_right_margin_for_five_zero___ten">4</integer>
+    <integer name="search_button_bottom_margin_for_five_zero___ten">12</integer>
+    
+    <integer name="search_button_text_size_for_six_zero___gen">16</integer>
+    <integer name="search_button_left_padding_for_six_zero___gen">4</integer>
+    <integer name="search_button_top_padding_for_six_zero___gen">4</integer>
+    <integer name="search_button_right_padding_for_six_zero___gen">4</integer>
+    <integer name="search_button_bottom_padding_for_six_zero___gen">8</integer>
+    <integer name="search_button_min_height_for_six_zero___gen">30</integer>
+    <integer name="search_button_min_width_for_six_zero___gen">80</integer>
+    <integer name="search_box_min_ems_for_six_zero___gen">10</integer>
+    <integer name="search_button_left_margin_for_six_zero___gen">4</integer>
+    <integer name="search_button_top_margin_for_six_zero___gen">4</integer>
+    <integer name="search_button_right_margin_for_six_zero___gen">4</integer>
+    <integer name="search_button_bottom_margin_for_six_zero___gen">12</integer>
+    
+    <integer name="search_button_text_size_for_seven_zero___five_point_seven">16</integer>   
+    <integer name="search_button_left_padding_for_seven_zero___five_point_seven">4</integer>
+    <integer name="search_button_top_padding_for_seven_zero___five_point_seven">4</integer>
+    <integer name="search_button_right_padding_for_seven_zero___five_point_seven">4</integer>
+    <integer name="search_button_bottom_padding_for_seven_zero___five_point_seven">8</integer>
+    <integer name="search_button_min_height_for_seven_zero___five_point_seven">30</integer>
+    <integer name="search_button_min_width_for_seven_zero___five_point_seven">80</integer>
+    <integer name="search_box_min_ems_for_seven_zero___five_point_seven">10</integer>
+    <integer name="search_button_left_margin_for_seven_zero___five_point_seven">4</integer>
+    <integer name="search_button_top_margin_for_seven_zero___five_point_seven">4</integer>
+    <integer name="search_button_right_margin_for_seven_zero___five_point_seven">4</integer>
+    <integer name="search_button_bottom_margin_for_seven_zero___five_point_seven">12</integer>
+    
+    <integer name="search_button_text_size_for_eight_zero___seven">14</integer>
+    <integer name="search_button_left_padding_for_eight_zero___seven">4</integer>
+    <integer name="search_button_top_padding_for_eight_zero___seven">4</integer>
+    <integer name="search_button_right_padding_for_eight_zero___seven">4</integer>
+    <integer name="search_button_bottom_padding_for_eight_zero___seven">8</integer>
+    <integer name="search_button_min_height_for_eight_zero___seven">30</integer>
+    <integer name="search_button_min_width_for_eight_zero___seven">40</integer>
+    <integer name="search_box_min_ems_for_eight_zero___seven">14</integer>
+    <integer name="search_button_left_margin_for_eight_zero___seven">4</integer>
+    <integer name="search_button_top_margin_for_eight_zero___seven">4</integer>
+    <integer name="search_button_right_margin_for_eight_zero___seven">4</integer>
+    <integer name="search_button_bottom_margin_for_eight_zero___seven">12</integer>
+    
+    <integer name="search_button_text_size_for_nine_zero___ten">16</integer>
+    <integer name="search_button_left_padding_for_nine_zero___ten">4</integer>
+    <integer name="search_button_top_padding_for_nine_zero___ten">4</integer>
+    <integer name="search_button_right_padding_for_nine_zero___ten">4</integer>
+    <integer name="search_button_bottom_padding_for_nine_zero___ten">8</integer>
+    <integer name="search_button_min_height_for_nine_zero___ten">30</integer>
+    <integer name="search_button_min_width_for_nine_zero___ten">80</integer>
+    <integer name="search_box_min_ems_for_nine_zero___ten">15</integer>
+    <integer name="search_button_left_margin_for_nine_zero___ten">4</integer>
+    <integer name="search_button_top_margin_for_nine_zero___ten">4</integer>
+    <integer name="search_button_right_margin_for_nine_zero___ten">4</integer>
+    <integer name="search_button_bottom_margin_for_nine_zero___ten">12</integer>
+    
+    <integer name="search_button_text_size_for_one_zero_zero___seven">16</integer> 
+    <integer name="search_button_left_padding_for_one_zero_zero___seven">4</integer>
+    <integer name="search_button_top_padding_for_one_zero_zero___seven">4</integer>
+    <integer name="search_button_right_padding_for_one_zero_zero___seven">4</integer>
+    <integer name="search_button_bottom_padding_for_one_zero_zero___seven">8</integer>
+    <integer name="search_button_min_height_for_one_zero_zero___seven">30</integer>
+    <integer name="search_button_min_width_for_one_zero_zero___seven">80</integer>
+    <integer name="search_box_min_ems_for_one_zero_zero___seven">10</integer>
+    <integer name="search_button_left_margin_for_one_zero_zero___seven">4</integer>
+    <integer name="search_button_top_margin_for_one_zero_zero___seven">4</integer>
+    <integer name="search_button_right_margin_for_one_zero_zero___seven">4</integer>
+    <integer name="search_button_bottom_margin_for_one_zero_zero___seven">12</integer>
+
+    <integer name="search_button_text_size_for_one_one_zero___five_point_one">14</integer>
+    <integer name="search_button_left_padding_for_one_one_zero___five_point_one">4</integer>
+    <integer name="search_button_top_padding_for_one_one_zero___five_point_one">2</integer>
+    <integer name="search_button_right_padding_for_one_one_zero___five_point_one">4</integer>
+    <integer name="search_button_bottom_padding_for_one_one_zero___five_point_one">8</integer>
+    <integer name="search_button_min_height_for_one_one_zero___five_point_one">10</integer>
+    <integer name="search_button_min_width_for_one_one_zero___five_point_one">40</integer>
+    <integer name="search_box_min_ems_for_one_one_zero___five_point_one">5</integer>
+    <integer name="search_button_left_margin_for_one_one_zero___five_point_one">2</integer>
+    <integer name="search_button_top_margin_for_one_one_zero___five_point_one">2</integer>
+    <integer name="search_button_right_margin_for_one_one_zero___five_point_one">2</integer>
+    <integer name="search_button_bottom_margin_for_one_one_zero___five_point_one">6</integer>
+    
+    <integer name="video_more_info_dialog_width_for_zero___four_point_three">590</integer>
+    <integer name="video_more_info_dialog_height_for_zero___four_point_three">380</integer>
+    <integer name="video_more_info_dialog_width_for_one_zero___four_point_zero_etc">570</integer>
+    <integer name="video_more_info_dialog_height_for_one_zero___four_point_zero_etc">420</integer>
+    <integer name="video_more_info_dialog_width_for_two_zero___four_point_three_etc">1200</integer>
+    <integer name="video_more_info_dialog_height_for_two_zero___four_point_three_etc">750</integer>
+    <integer name="video_more_info_dialog_width_for_three_zero___four_point_seven">900</integer>
+    <integer name="video_more_info_dialog_height_for_three_zero___four_point_seven">610</integer>
+    <integer name="video_more_info_dialog_width_for_four_zero___seven">784</integer>
+    <integer name="video_more_info_dialog_height_for_four_zero___seven">618</integer>
+    <integer name="video_more_info_dialog_width_for_five_zero___ten">1200</integer>
+    <integer name="video_more_info_dialog_height_for_five_zero___ten">620</integer>
+    <integer name="video_more_info_dialog_width_for_six_zero___gen">1200</integer>
+    <integer name="video_more_info_dialog_height_for_six_zero___gen">950</integer>
+    <integer name="video_more_info_dialog_width_for_seven_zero___five_point_seven">1200</integer>
+    <integer name="video_more_info_dialog_height_for_seven_zero___five_point_seven">950</integer>
+    <integer name="video_more_info_dialog_width_for_eight_zero___seven">1400</integer>
+    <integer name="video_more_info_dialog_height_for_eight_zero___seven">1050</integer>
+    <integer name="video_more_info_dialog_width_for_nine_zero___ten">1200</integer>
+    <integer name="video_more_info_dialog_height_for_nine_zero___ten">950</integer>
+    <integer name="video_more_info_dialog_width_for_one_zero_zero___seven">900</integer>
+    <integer name="video_more_info_dialog_height_for_one_zero_zero___seven">712</integer>
+    <integer name="video_more_info_dialog_width_for_one_one_zero___five_point_one">1800</integer>
+    <integer name="video_more_info_dialog_height_for_one_one_zero___five_point_one">1000</integer>
+    
+    
+</resources>

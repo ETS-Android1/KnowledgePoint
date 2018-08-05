@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\tony.hillman\Documents\AndroidStudioBackups\MaterialWithTabs\V01\UAKP-all-22-1-21-g6\app\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\tony.hillman\Documents\AndroidStudioBackups\MaterialWithTabs\V01\UAKP-all-22-1-21-g6\app\build\intermediates\pre-dexed\debug\commons-io-2.4-1b2bf04aae2414768c1ceb87d4677d3f2a273572.jar" />
+    </item>
+    <item
+        jar="C:\Users\tony.hillman\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\tony.hillman\Documents\AndroidStudioBackups\MaterialWithTabs\V01\UAKP-all-22-1-21-g6\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-d93dba0e7ad5979803bfe8e50dc42836936234b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\tony.hillman\Documents\AndroidStudioBackups\MaterialWithTabs\V01\UAKP-all-22-1-21-g6\app\libs\commons-fileupload-1.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c621b54583719ac0310404463d6d99db27e1052c">
+        <dex dex="C:\Users\tony.hillman\Documents\AndroidStudioBackups\MaterialWithTabs\V01\UAKP-all-22-1-21-g6\app\build\intermediates\pre-dexed\debug\commons-fileupload-1.3.1-b428f2814f2cfb8310c94b4d88d6bd4de05b0926.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    
+    <gradient
+	  android:startColor="#f9b700"
+      android:centerColor="#f9b700"
+      android:endColor="#f9b700"
+      
+      android:angle="270" />
+
+</shape><!-- From: file:/C:/Users/tony.hillman/Documents/AndroidStudioBackups/MaterialWithTabs/V01/UAKP-all-22-1-21-g6/app/src/main/res/drawable-hdpi/dialogdividercolor.xml -->

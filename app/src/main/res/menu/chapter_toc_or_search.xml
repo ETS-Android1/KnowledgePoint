@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+		android:id="@+id/choose_toc"  
+        android:title="Table of Contents for this chapter"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        />
+    
+    <item
+		android:id="@+id/choose_search"  
+        android:title="Text-Search for this chapter"
+        android:textSize="10sp"
+        android:textColor="#335495"
+        />
+
+</menu>

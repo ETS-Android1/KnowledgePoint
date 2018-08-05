@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="opaque_red">#f00</color>
+    <color name="translucent_red">#80ff0000</color>
+    <color name="image_border_start">#335495</color>
+    <color name="image_border_end">#336699</color>
+    <color name="image_border_center">#6B8FB2</color>
+    
+    <color name="search_button">#336699</color>
+    <color name="search_button_text">#FFFFFF</color>
+    
+    <color name="popup_menu_background">#bcc2c7</color>
+    <color name="popup_menu_background_onclick">#A9ACB0</color>
+    <color name="my_black">#000000</color>
+    <color name="my_white">#FFFFFF</color>
+    <color name="ultra_yellow">#F9B700</color>
+	<color name="search_box_text_color">#000000</color>
+	
+</resources>

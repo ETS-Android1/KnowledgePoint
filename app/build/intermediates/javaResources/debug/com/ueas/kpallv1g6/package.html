@@ -1,0 +1,103 @@
+<html>
+<body>
+<p>
+This package contains the source code for the <b>UltraAPEX Knowledge Point</b> application,
+which is written for the Android mobile device. The application presents information
+on <b>UltraAPEX</b>, an airport performance expert system, provided by <b>Ultra Electronics
+Airport Systems</b>, with the goal of enhancing an airport's performance-efficiency.
+</p>
+
+<h1>Principal Components</h1>
+
+<p>
+The application has been built using the standard Android application framework components:
+Activity, Intent, and Service. The following activities in particular provide the basic user
+experience:
+</p>
+
+<ul>
+
+<li><i>Login.</i> A login screen, featuring fields for the submission of ID and
+password. Login can either be over the network, or local. The user cannot proceed until authentication has
+been accomplished. 
+</li>
+
+<li><i>Welcome Page.</i> This provides the title of the application, plus a number of
+buttons with which the user selects content. This includes a Prefatory and Help information,
+and also the ability to provide user-feedback via email. Most typically, the user will
+use this page to access the princpal content of the application, which is provided as a
+series of textual documents, as videos, and as a voice-activated query system.</li>
+
+<li><i>List and Grid Views.</i> Standard Android objects, which provide content-listings
+from which a user can select content; including documents, chapters, and individual videos.</li>
+
+<li><i>Book Covers.</i> These identify individual documents, and provide features for
+navigating to and from their contents.</li>
+
+<li><i>Chapter Activities.</i> These present textual and static graphical information, and
+comprise the bulk of information provided by the application.</li>
+
+<li><i>Video Activity.</i> This allows the viewing of a series of videos, explaining the
+UltraAPEX user-experience.</li>
+
+<li><i>Voice Activity</i> This allows technical terms to be queried vocally, and provides
+audible responses.</li>
+
+</ul>
+
+<p>
+The presence of several additional components should be noted:
+</p>
+
+<ul>
+
+<li><i>Data Initialization Activity.</i>Used to load data from the zip file that
+is downloaded from the Android Play Store, in accompaniment to the application.</li>
+
+<li><i>Data Not Found Activity.</i> Used to terminate the application with a notification,
+if required data is not present.</li>
+
+<li><i>Go Landscape</i> and <i>Go Portrait Activities</i> demonstrate, as a courtesy to
+the user when the application is first run, the occasional need to reorient the device from
+portrait to landscape mode, and back again.</li>
+
+<li><i>Adapters.</i> Employed by List and Grid View objects, these inflate XML-defined
+rows, so that each becomes visible and user-responsive. This
+allows the selection of documents, chapters, or individual videos.</li>
+
+<li><i>XMLParser.</i> Used to generate a document object from XML data, and retrieve information
+from the object.</li>
+
+<li><i>ImageLoader, FileCache, MemoryCache,</i> and <i>Utils</i>, which provide support for
+accessing graphics.</li>
+
+<li><i>Meta files</i>. Used for the establishment of global values that may be required by multiple activities
+during the running of the application.</li>
+
+</ul>
+
+<h1>Access to Content</h1>
+
+<p>
+The application makes use of the following kinds of data:
+</p>
+
+<ul>
+
+<li>Video files in mp4 format.</li>
+
+<li>Html files.</li>
+
+<li>Image files in png format, which are referenced by the html files.</li>
+
+<li>Term-definition strings, maintained as XML-content, which are used in the production
+of audible responses to user-queries.</li>
+
+<li>Meta-data, provided as XML-files, whereby documents, chapters, and videos can be
+located by the application.</li>
+
+</ul>
+
+</body>
+
+</html>

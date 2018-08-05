@@ -1,0 +1,66 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"> 
+   	</style>
+
+    <style name="Theme.MyAppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
+   	</style> 
+    
+    <style name="theLayout">
+	    <item name="android:padding">3dp</item>
+	    <item name="android:background">@drawable/image_border</item>
+	    <item name="android:scaleType">fitCenter</item>
+   	</style>
+   	
+    <style name="Theme.MyAppTheme.ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#000000</item>
+        <item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>
+   	</style>       
+     
+   	<style name="Theme.MyAppTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle"></item>
+        <item name="android:paddingLeft">4sp</item>
+        <item name="android:textSize">26sp</item>
+   	</style> 
+   	
+   	<style name="CustomDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+    	<item name="android:windowFrame">@null</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowTitleStyle">@null</item>
+		<item name="android:colorBackground">#336699</item>
+		<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+		<item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+		<item name="android:backgroundDimEnabled">true</item>
+		<item name="android:width">300dip</item>
+		<item name="android:height">60dip</item>
+ 		<item name="android:textColor">#336699</item>
+ 		<item name="android:textSize">18sp</item>
+	</style>
+	
+   	    <style name="CustomDialogForDocReferences" parent="@android:style/Theme.Holo.Dialog">
+    	<item name="android:windowFrame">@null</item>
+    	<item name="android:childDivider">@android:color/black</item>
+    	<item name="android:divider">@android:color/holo_orange_dark</item>
+		<item name="android:windowBackground">@drawable/dialogbackgroundcolor</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowTitleStyle">@null</item>
+		<item name="android:colorBackground">@drawable/list_selector</item>
+		<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+		<item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+		<item name="android:backgroundDimEnabled">true</item>
+		<item name="android:width">600dip</item>
+		<item name="android:height">18dip</item>
+ 		<item name="android:textColor">#F9B700</item>
+ 		<item name="android:textSize">18sp</item>
+	</style>
+
+</resources>

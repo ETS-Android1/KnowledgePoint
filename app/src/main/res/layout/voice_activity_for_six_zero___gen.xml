@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/blankcover4">"
+    
+    <TextView
+        android:id="@+id/my_textview"
+        android:layout_width="388dip"
+        android:layout_height="38dip"
+        android:background="@drawable/text_continuity_button"
+        android:paddingTop="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/my_top_underscore"
+        android:layout_width="388dip"
+        android:layout_height="2dip"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text_continuity_button" />
+    
+    <Button
+        android:id="@+id/btn_speak"
+        android:layout_marginTop="52dip"
+        android:layout_width="330dip"
+        android:layout_height="48dip"
+        android:layout_gravity="center" 
+        android:layout_marginLeft="29dip"
+        android:layout_marginRight="29dip"
+        android:textSize="18sp"       
+         />
+   <TextView
+        android:id="@+id/textView0"
+        android:textSize="18sp"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:layout_marginTop="106dip"
+        android:layout_width="318dip"
+        android:layout_height="46dip"
+        android:padding="8dip"
+        android:background="#000000"
+        android:layout_gravity="center" />
+   
+     <TextView
+        android:id="@+id/textView1"
+        android:textSize="18sp"
+        android:layout_marginLeft="42dip"
+        android:layout_marginRight="42dip"
+        android:layout_marginTop="108dip"
+        android:layout_width="314dip"
+        android:layout_height="42dip"
+        android:padding="8dip"
+        android:background="#FFFFFF"
+        android:layout_gravity="center" />
+     
+     <TextView
+            android:id="@+id/imgFrame0"
+            android:layout_width="108dip"
+            android:layout_height="108dip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="164dp"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:background="#000000"
+             >
+        </TextView>
+     
+     <TextView
+            android:id="@+id/imgFrame1"
+            android:layout_width="104dip"
+            android:layout_height="104dip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="166dp"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:background="#000000"
+             >
+        </TextView>
+     
+     <ImageView
+            android:id="@+id/imgFrame"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="114dp"
+            android:layout_marginTop="168dp"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+             >
+        </ImageView>
+    
+   <ImageView
+        android:id="@+id/footbar"
+        android:layout_width="368dip"
+        android:layout_height="30dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginBottom="2dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="456dip"
+        android:background="@drawable/text_continuity_button"
+        android:onClick="returnToMenu"
+        android:src="@drawable/arrow_light_blue_xxsmall_right" />
+
+   <Spinner
+       android:id="@+id/theSpinner"
+       android:layout_width="318dp"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/footbar"
+       android:layout_alignLeft="@+id/footbar"
+       android:layout_marginBottom="38dp"
+       android:drawSelectorOnTop="true"
+       android:prompt="@string/prompt"
+       android:textColor="#335495"
+       android:textSize="13sp" />
+
+</RelativeLayout>
